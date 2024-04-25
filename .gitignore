@@ -94,6 +94,11 @@ local.properties
 .idea/**/dbnavigator.xml
 
 # Gradle
+build/
+.gradle
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
 .idea/**/gradle.xml
 .idea/**/libraries
 
@@ -120,6 +125,7 @@ cmake-build-*/
 *.iws
 
 # IntelliJ
+.idea/
 out/
 
 # mpeltonen/sbt-idea plugin
@@ -194,7 +200,7 @@ fabric.properties
 .mtj.tmp/
 
 # Package Files #
-*.jar
+#*.jar
 *.war
 *.nar
 *.ear
